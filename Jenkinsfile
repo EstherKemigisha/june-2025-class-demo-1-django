@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage('checkout') {
             steps{
-                git branch: 'main', url: 'https://github.com/EstherKemigisha/june25-classdemo2.git'
+                git branch: 'main', url: "https://github.com/EstherKemigisha/june25-classdemo2.git"
             }
         }
         stage('setup Virtual Environment') {
